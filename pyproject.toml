@@ -12,7 +12,7 @@ dev = ["pyright", "ruff", "ward", "twine", "build"]
 aws = ["pulumi-aws"]
 
 [project.urls]
-"Source" = "https://github.com/duongdominhchau/pulumi-utils"
+"Source" = "https://github.com/ptnglobalcorp/pu-utils"
 
 
 [build-system]
