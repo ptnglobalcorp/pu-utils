@@ -1,5 +1,5 @@
 [project]
-name = "ix-pu-utils"
+name = "plm-utils"
 version = "0.1.0"
 description = "Random stuff to help writing Pulumi scripts easier"
 readme = "README.md"
@@ -8,7 +8,7 @@ requires-python = ">= 3.12.0"
 dependencies = ["pulumi", "uv"]
 
 authors = [
-    { name = "injuryex", email = "injuryex@ptnglobalcorp.com" },
+    { name = "PTNGlobal", email = "support@ptnglobalcorp.com" },
 ]
 
 [project.optional-dependencies]
@@ -16,7 +16,7 @@ dev = ["pyright", "ruff", "ward", "twine", "build"]
 aws = ["pulumi-aws"]
 
 [project.urls]
-"Source" = "https://github.com/ptnglobalcorp/pu-utils"
+"Source" = "https://github.com/ptnglobalcorp/pulumi-utils"
 
 
 [build-system]
